@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8073994754015147077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5157138185646886958}
+  - component: {fileID: 4158632187032118303}
+  - component: {fileID: 1943317224058989417}
+  m_Layer: 0
+  m_Name: Furniture_Sofas-Armchairs_CIDER-LA-MANUFACTURE_Cast-Assises-Canape
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5157138185646886958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8073994754015147077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1898823137129574104}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4158632187032118303
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8073994754015147077}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7701045, y: 1.148299, z: 0.96615976}
+  m_Center: {x: -0.009294093, y: 0.07414955, z: -0.01691994}
+--- !u!114 &1943317224058989417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8073994754015147077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 973191442e1254c5eaac961810125086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3757001911525823348
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5157138185646886958}
+    m_Modifications:
+    - target: {fileID: 2680104041012471574, guid: e86bb487e10264623828d4cf35680047, type: 3}
+      propertyPath: m_Name
+      value: Furniture_Sofas-Armchairs_CIDER-LA-MANUFACTURE_Cast-Assises-Canape 1
+        (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3349117642883693996, guid: e86bb487e10264623828d4cf35680047, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3349117642883693996, guid: e86bb487e10264623828d4cf35680047, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3349117642883693996, guid: e86bb487e10264623828d4cf35680047, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3349117642883693996, guid: e86bb487e10264623828d4cf35680047, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3349117642883693996, guid: e86bb487e10264623828d4cf35680047, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3349117642883693996, guid: e86bb487e10264623828d4cf35680047, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3349117642883693996, guid: e86bb487e10264623828d4cf35680047, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3349117642883693996, guid: e86bb487e10264623828d4cf35680047, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3349117642883693996, guid: e86bb487e10264623828d4cf35680047, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3349117642883693996, guid: e86bb487e10264623828d4cf35680047, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3349117642883693996, guid: e86bb487e10264623828d4cf35680047, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e86bb487e10264623828d4cf35680047, type: 3}
+--- !u!4 &1898823137129574104 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3349117642883693996, guid: e86bb487e10264623828d4cf35680047, type: 3}
+  m_PrefabInstance: {fileID: 3757001911525823348}
+  m_PrefabAsset: {fileID: 0}

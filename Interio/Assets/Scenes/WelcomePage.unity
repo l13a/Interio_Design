@@ -194,7 +194,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welcome!
+  m_Text: '
+
+'
 --- !u!222 &4697491
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -237,10 +239,10 @@ RectTransform:
   m_Father: {fileID: 996174899}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -534.14, y: -310}
-  m_SizeDelta: {x: -1261.0403, y: -737.9049}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -574.5066, y: -328.86063}
+  m_SizeDelta: {x: 200, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &226649419
 MonoBehaviour:

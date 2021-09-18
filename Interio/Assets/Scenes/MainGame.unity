@@ -448,7 +448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4291606655923662755, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
       propertyPath: availableObjects.Array.size
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4291606655923662755, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
       propertyPath: availableObjects.Array.data[0]
@@ -477,6 +477,18 @@ PrefabInstance:
     - target: {fileID: 4291606655923662755, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
       propertyPath: availableObjects.Array.data[6]
       value: Flooring_Carpets_CIDER-LA-MANUFACTURE_Playtime-Rug
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291606655923662755, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
+      propertyPath: availableObjects.Array.data[7]
+      value: Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291606655923662755, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
+      propertyPath: availableObjects.Array.data[8]
+      value: Furniture_Sofas-Armchairs_CIDER-LA-MANUFACTURE_Cast-Assises-Canape
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291606655923662755, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
+      propertyPath: availableObjects.Array.data[9]
+      value: IKE050020
       objectReference: {fileID: 0}
     - target: {fileID: 4291606655961360292, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
       propertyPath: m_Color.a

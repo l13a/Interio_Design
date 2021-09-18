@@ -1,586 +1,73 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 8109 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-F:\2020.3.11f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Documents/HTN2021/InterioProject/Interio
+/Users/mockingjay/Documents/GitHub/InterioProject/Interio
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59144
-Successfully changed project path to: D:/Documents/HTN2021/InterioProject/Interio
-D:/Documents/HTN2021/InterioProject/Interio
+53186
+Successfully changed project path to: /Users/mockingjay/Documents/GitHub/InterioProject/Interio
+/Users/mockingjay/Documents/GitHub/InterioProject/Interio
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 90.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path F:/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Documents/HTN2021/InterioProject/Interio/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mockingjay/Documents/GitHub/InterioProject/Interio/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
-    Vendor:   
-    VRAM:     4054 MB
-    Driver:   27.20.100.8681
+2021-09-18 18:14:57.950 Unity[9039:1007914] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 650 (low power)
+2021-09-18 18:14:57.950 Unity[9039:1007914] Metal devices available: 1
+2021-09-18 18:14:57.950 Unity[9039:1007914] 0: Intel(R) Iris(TM) Plus Graphics 650 (low power)
+2021-09-18 18:14:57.951 Unity[9039:1007914] Using device Intel(R) Iris(TM) Plus Graphics 650 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 650
 Initialize mono
-Mono path[0] = 'F:/2020.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'F:/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'F:/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56039
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: F:/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: F:/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006340 seconds.
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000507 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 87.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.076 seconds
+- Completed reload, in  2.792 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015970 seconds.
+Registered in 0.001941 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.719 seconds
+- Completed reload, in  1.309 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.3 MB.
-System memory in use after: 66.3 MB.
+System memory in use before: 139.6 MB.
+System memory in use after: 139.6 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1866.
-Total: 16.739100 ms (FindLiveObjects: 0.502800 ms CreateObjectMapping: 0.159500 ms MarkObjects: 15.774700 ms  DeleteObjects: 0.296700 ms)
+Total: 2.461496 ms (FindLiveObjects: 0.221861 ms CreateObjectMapping: 0.094440 ms MarkObjects: 2.039700 ms  DeleteObjects: 0.104214 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Example.prefab
-  artifactKey: Guid(6155f04f03fd642f9b5b51f7d38271eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Example.prefab using Guid(6155f04f03fd642f9b5b51f7d38271eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecf81c360d0b9c0827a571fc6354d81') in 0.810456 seconds
-  Import took 0.825368 seconds .
+  path: Assets/Scenes/MyUploads.unity
+  artifactKey: Guid(ecd4d3aea0c054bf8a55f22e88352adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MyUploads.unity using Guid(ecd4d3aea0c054bf8a55f22e88352adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1555e761f0466c0cd2ee948087a227b0') in 0.013406 seconds
+  Import took 0.015984 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 11.974918 seconds.
-  path: Assets/RoomDesignPic/bright-minimalist-living-room-design-scaled-958x575.jpg
-  artifactKey: Guid(506897b8891b348f7a001fae2e35df09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoomDesignPic/bright-minimalist-living-room-design-scaled-958x575.jpg using Guid(506897b8891b348f7a001fae2e35df09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7b387cf3fa384d3a522f802b4d219d') in 0.419869 seconds
-  Import took 0.428418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008114 seconds.
-  path: Assets/RoomDesignPic/bright-minimalist-living-room-design-scaled-958x575.jpg
-  artifactKey: Guid(506897b8891b348f7a001fae2e35df09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoomDesignPic/bright-minimalist-living-room-design-scaled-958x575.jpg using Guid(506897b8891b348f7a001fae2e35df09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7b387cf3fa384d3a522f802b4d219d') in 0.051765 seconds
-  Import took 0.063726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.973709 seconds.
-  path: Assets/Scenes/MainGame.unity
-  artifactKey: Guid(63f97feda7e0047eb9b1c867f8c33eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainGame.unity using Guid(63f97feda7e0047eb9b1c867f8c33eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc06795b81b8e8db62957f3be39459c') in 0.005187 seconds
-  Import took 0.011499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032409 seconds.
-  path: Assets/Scenes/MainGame.unity
-  artifactKey: Guid(63f97feda7e0047eb9b1c867f8c33eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainGame.unity using Guid(63f97feda7e0047eb9b1c867f8c33eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc06795b81b8e8db62957f3be39459c') in 0.005181 seconds
-  Import took 0.013655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.326754 seconds.
-  path: Assets/Resources/BRIMNES Wardrobe-thumb.jpg
-  artifactKey: Guid(fb87261792f7ca3479b7c5f21f278f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/BRIMNES Wardrobe-thumb.jpg using Guid(fb87261792f7ca3479b7c5f21f278f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fe267b74247f840a94710323895a23') in 0.119199 seconds
-  Import took 0.130947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001073 seconds.
-  path: Assets/Resources/RANARP Lamp.prefab
-  artifactKey: Guid(3d91d622a7dc62040b8c1d10fedccd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/RANARP Lamp.prefab using Guid(3d91d622a7dc62040b8c1d10fedccd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77af5a673516192011fa8f688afb0336') in 0.152011 seconds
-  Import took 0.162885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001215 seconds.
-  path: Assets/Resources/MALM Bed.prefab
-  artifactKey: Guid(26130dbcd8dd42a44934192746ca567c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MALM Bed.prefab using Guid(26130dbcd8dd42a44934192746ca567c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046c22bbf6c25f20c0e227496ffdf36c') in 0.242554 seconds
-  Import took 0.255435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001127 seconds.
-  path: Assets/Resources/RANARP Lamp-thumb.jpg
-  artifactKey: Guid(0c5fbeb5a30064c489d9fb6501005cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/RANARP Lamp-thumb.jpg using Guid(0c5fbeb5a30064c489d9fb6501005cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b11bfa67e9f0d47f075bdbd6ab7c9b') in 0.069488 seconds
-  Import took 0.085854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001048 seconds.
-  path: Assets/Resources/MALM Chest.prefab
-  artifactKey: Guid(31df4917ca4050d42a53df12844195c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MALM Chest.prefab using Guid(31df4917ca4050d42a53df12844195c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939adab989bdc757c938625d8939dceb') in 0.074363 seconds
-  Import took 0.102694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000892 seconds.
-  path: Assets/Resources/Mukul Dining Table-thumb.jpg
-  artifactKey: Guid(b97653a0d44f16c41a16350280498d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Mukul Dining Table-thumb.jpg using Guid(b97653a0d44f16c41a16350280498d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcda7d03b60a950427cec5db09227d22') in 0.090702 seconds
-  Import took 0.105081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000862 seconds.
-  path: Assets/Resources/Mukul Dining Table.prefab
-  artifactKey: Guid(dfa7c6c4baa189e428feff7657c67be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Mukul Dining Table.prefab using Guid(dfa7c6c4baa189e428feff7657c67be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c9c8107760c5067fd2bac259b2bdef') in 0.085543 seconds
-  Import took 0.096071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000966 seconds.
-  path: Assets/Resources/BRIMNES Wardrobe.prefab
-  artifactKey: Guid(cceb62ae746f53741bab4ee8d20df602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/BRIMNES Wardrobe.prefab using Guid(cceb62ae746f53741bab4ee8d20df602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25ead789a923bd25312b0acddac6a76') in 0.082744 seconds
-  Import took 0.095293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000823 seconds.
-  path: Assets/Resources/MALM Bed-thumb.jpg
-  artifactKey: Guid(9f48167d31e203447bbe9b7015007bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MALM Bed-thumb.jpg using Guid(9f48167d31e203447bbe9b7015007bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cb33e3b6e10e8196e49cfe467a13f3') in 0.063295 seconds
-  Import took 0.072524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000886 seconds.
-  path: Assets/Resources/MALM Chest-thumb.jpg
-  artifactKey: Guid(315887112799c1647b200d4d439cf332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MALM Chest-thumb.jpg using Guid(315887112799c1647b200d4d439cf332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49da9aacfbb743179cf6cdcb72b51457') in 0.071270 seconds
-  Import took 0.081408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020511 seconds.
-  path: Assets/Resources/MALM Chest-thumb.jpg
-  artifactKey: Guid(315887112799c1647b200d4d439cf332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MALM Chest-thumb.jpg using Guid(315887112799c1647b200d4d439cf332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49da9aacfbb743179cf6cdcb72b51457') in 0.083287 seconds
-  Import took 0.095309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.585187 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/bright-minimalist-living-room-design-scaled-958x575.jpg
-  artifactKey: Guid(0c5f3d0f6f57e4026a74bb06e530f119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/bright-minimalist-living-room-design-scaled-958x575.jpg using Guid(0c5f3d0f6f57e4026a74bb06e530f119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ccf153eb4d4e4f3df7bb03736ca211') in 0.021862 seconds
-  Import took 0.029250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000673 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/IKE050020.prefab
-  artifactKey: Guid(b1f487bb61441427da18e8f08fad4b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/IKE050020.prefab using Guid(b1f487bb61441427da18e8f08fad4b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c0e633e99078e59f02eea5fff6f1cf') in 0.034063 seconds
-  Import took 0.041068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000705 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Furniture_Sofas-Armchairs_CIDER-LA-MANUFACTURE_Cast-Assises-Canape 1.prefab
-  artifactKey: Guid(e86bb487e10264623828d4cf35680047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Furniture_Sofas-Armchairs_CIDER-LA-MANUFACTURE_Cast-Assises-Canape 1.prefab using Guid(e86bb487e10264623828d4cf35680047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b5e2dcc5cb7d6bd6764b522b3d744c') in 0.047826 seconds
-  Import took 0.055398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000676 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Furniture_Sofas-Armchairs_Mymito-GmbH_Cubit-Modular-Sofa-Stool-Module-Seat-Hei.prefab
-  artifactKey: Guid(986df395fe5c84e0ba2d4532e8fa1e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Furniture_Sofas-Armchairs_Mymito-GmbH_Cubit-Modular-Sofa-Stool-Module-Seat-Hei.prefab using Guid(986df395fe5c84e0ba2d4532e8fa1e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb758e159342514661b99f88080f746') in 0.040675 seconds
-  Import took 0.048337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000567 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/IKEA-Aspelund_Double_Bed-3D.prefab
-  artifactKey: Guid(9fc79bbc1f1c74e6ba6c98d8ee13dc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/IKEA-Aspelund_Double_Bed-3D.prefab using Guid(9fc79bbc1f1c74e6ba6c98d8ee13dc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0360179a181b156bb38c15f4cb8f86cc') in 0.055829 seconds
-  Import took 0.063657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000546 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab
-  artifactKey: Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab using Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3cafaeddb85d0d5d7f9b4c5657b135') in 0.032618 seconds
-  Import took 0.039176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000670 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Flooring_Carpets_CIDER-LA-MANUFACTURE_Playtime-Rug.prefab
-  artifactKey: Guid(85cba146e2aa0445ca59201b8047f8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Flooring_Carpets_CIDER-LA-MANUFACTURE_Playtime-Rug.prefab using Guid(85cba146e2aa0445ca59201b8047f8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ba46bc3566ce7df6eb3048ac84cf53') in 0.041923 seconds
-  Import took 0.049514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000640 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/IKEA-Leksvik_Drop_Leaf_Table_And_Chairs-3D.prefab
-  artifactKey: Guid(448787453bdeb4e34813646760c253f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/IKEA-Leksvik_Drop_Leaf_Table_And_Chairs-3D.prefab using Guid(448787453bdeb4e34813646760c253f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f9d270054cad0a3b88dd52422b7c48') in 0.037336 seconds
-  Import took 0.044932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000667 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Flooring_Carpets_CIDER-LA-MANUFACTURE_Playtime-Rug.prefab
-  artifactKey: Guid(85cba146e2aa0445ca59201b8047f8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Flooring_Carpets_CIDER-LA-MANUFACTURE_Playtime-Rug.prefab using Guid(85cba146e2aa0445ca59201b8047f8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ba46bc3566ce7df6eb3048ac84cf53') in 0.035460 seconds
-  Import took 0.042760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000826 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/IKEA-Leksvik_Drop_Leaf_Table_And_Chairs-3D.prefab
-  artifactKey: Guid(448787453bdeb4e34813646760c253f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/IKEA-Leksvik_Drop_Leaf_Table_And_Chairs-3D.prefab using Guid(448787453bdeb4e34813646760c253f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f9d270054cad0a3b88dd52422b7c48') in 0.023312 seconds
-  Import took 0.031958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 229.054145 seconds.
-  path: Assets/Scripts/DraggableObject.cs
-  artifactKey: Guid(973191442e1254c5eaac961810125086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DraggableObject.cs using Guid(973191442e1254c5eaac961810125086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7b41d1730d3d06d14c1759a4a7a694') in 0.056843 seconds
-  Import took 0.064249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.064875 seconds.
-  path: Assets/Resources/LEKSIVK Table.prefab
-  artifactKey: Guid(dd317ddd76b5e214bb4c23278ac04573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/LEKSIVK Table.prefab using Guid(dd317ddd76b5e214bb4c23278ac04573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e8468f9a8fad0ab549adb5f4952cd0') in 0.056417 seconds
-  Import took 0.063878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.091138 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Thumbnail
-  artifactKey: Guid(988bd984fa6ee484aba2093caacb1af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Thumbnail using Guid(988bd984fa6ee484aba2093caacb1af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf009b827d7196f3035c0a5237599d90') in 0.015212 seconds
-  Import took 0.021906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092220 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Thumbnail/Screen Shot 2021-09-08 at 2.18.52 PM.png
-  artifactKey: Guid(8bfab2d39a6f041b996e72ced2f435bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Thumbnail/Screen Shot 2021-09-08 at 2.18.52 PM.png using Guid(8bfab2d39a6f041b996e72ced2f435bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c2ff229a944e621cf5d533d2bcd677') in 0.074723 seconds
-  Import took 0.082328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000832 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Thumbnail/Screen Shot 2021-09-08 at 2.54.36 PM.png
-  artifactKey: Guid(1be971283013142fea343aeaaf8c2371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Thumbnail/Screen Shot 2021-09-08 at 2.54.36 PM.png using Guid(1be971283013142fea343aeaaf8c2371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5412bbd4d40da363084636431eb13fea') in 0.037566 seconds
-  Import took 0.046145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000948 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Thumbnail/Screen Shot 2021-09-08 at 2.43.05 PM.png
-  artifactKey: Guid(3382afcf4fb6f4a34876620bb4f120b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Thumbnail/Screen Shot 2021-09-08 at 2.43.05 PM.png using Guid(3382afcf4fb6f4a34876620bb4f120b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd741490d374d9bc4ce9176e55d0918df') in 0.039417 seconds
-  Import took 0.048118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000840 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Thumbnail/Screen Shot 2021-09-08 at 2.24.07 PM.png
-  artifactKey: Guid(7b342b7f497f64c559cf4da0cb9e17a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Thumbnail/Screen Shot 2021-09-08 at 2.24.07 PM.png using Guid(7b342b7f497f64c559cf4da0cb9e17a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7242b32cd8b2bdd4dc8048370ad48676') in 0.040596 seconds
-  Import took 0.050132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000746 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Thumbnail/Screen Shot 2021-09-08 at 2.56.10 PM.png
-  artifactKey: Guid(1b9b87fc9f6cc4339b33244edb158d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Thumbnail/Screen Shot 2021-09-08 at 2.56.10 PM.png using Guid(1b9b87fc9f6cc4339b33244edb158d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb27b4e6765290571f295ea100ad0cb') in 0.038006 seconds
-  Import took 0.046554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000707 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Thumbnail/Screen Shot 2021-09-08 at 2.20.02 PM.png
-  artifactKey: Guid(20e07809d4457465191f547674cfaeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Thumbnail/Screen Shot 2021-09-08 at 2.20.02 PM.png using Guid(20e07809d4457465191f547674cfaeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e61b034be3aae6372c0d13502f2ad47') in 0.036249 seconds
-  Import took 0.044591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.062512 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Thumbnail/LEKSIVK Table-thumb.png
-  artifactKey: Guid(1be971283013142fea343aeaaf8c2371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Thumbnail/LEKSIVK Table-thumb.png using Guid(1be971283013142fea343aeaaf8c2371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2f3fe01cb23c6b82616447b72b4871') in 0.067918 seconds
-  Import took 0.081064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.131713 seconds.
-  path: Assets/Resources/LEKSIVK Table-thumb.png
-  artifactKey: Guid(1be971283013142fea343aeaaf8c2371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/LEKSIVK Table-thumb.png using Guid(1be971283013142fea343aeaaf8c2371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caafc792ca712d3f8843c3bcb410819e') in 0.052534 seconds
-  Import took 0.060670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.836492 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Skin/Black and white.png
-  artifactKey: Guid(e2157abe0370f4775ad8a16872a45b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Skin/Black and white.png using Guid(e2157abe0370f4775ad8a16872a45b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2876ffb5f04b281ea1e712644ec897c') in 0.031721 seconds
-  Import took 0.039490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000726 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Skin/CIDER_Sera-Calla.jpg
-  artifactKey: Guid(16424b7fdb46449c2a8ae567f9dc20b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Skin/CIDER_Sera-Calla.jpg using Guid(16424b7fdb46449c2a8ae567f9dc20b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617d3e7883ee70d97f110d506230edd6') in 0.032949 seconds
-  Import took 0.041902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000750 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Skin/White -Yellow.mat
-  artifactKey: Guid(66de057be410f44be97885bc3fee3e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Skin/White -Yellow.mat using Guid(66de057be410f44be97885bc3fee3e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31aa636ca93f6bf76d68b6ff85068057') in 0.133391 seconds
-  Import took 0.140801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000758 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Skin/LightWood 1.mat
-  artifactKey: Guid(18ca002f7b37644ce95059734702400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Skin/LightWood 1.mat using Guid(18ca002f7b37644ce95059734702400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06decd74be62e49ce8cddbf79040418') in 0.030824 seconds
-  Import took 0.038260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000729 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Skin/Carpet Black & White.mat
-  artifactKey: Guid(77822434b363f4a4ea07fd722d165ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Skin/Carpet Black & White.mat using Guid(77822434b363f4a4ea07fd722d165ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f4465c0abe95f219894074737bcad2') in 0.042735 seconds
-  Import took 0.050740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000678 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Skin/IKE050020.obj
-  artifactKey: Guid(570572653babd47f6bfa9b3d5dc2acde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Skin/IKE050020.obj using Guid(570572653babd47f6bfa9b3d5dc2acde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3efe6a8d0251092e04ae3d8659eceb5') in 0.275969 seconds
-  Import took 0.281218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Skin/WhiteTexturedSofa.mat
-  artifactKey: Guid(5a59937549ed5481a8114b0622cdd442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Skin/WhiteTexturedSofa.mat using Guid(5a59937549ed5481a8114b0622cdd442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abb15ff700ef20c410fb354d2434c24') in 0.025030 seconds
-  Import took 0.030419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000595 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Skin/Wood.mat
-  artifactKey: Guid(08c1c4c6e8fe745678e8eae067702b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Skin/Wood.mat using Guid(08c1c4c6e8fe745678e8eae067702b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7967006a9c46c724534fb4cfe91609ca') in 0.031328 seconds
-  Import took 0.039192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000488 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Skin/Furniture_Sofas-Armchairs_CIDER-LA-MANUFACTURE_Cast-Assises-Canape.obj
-  artifactKey: Guid(fe14c239482264779a6de48ebc3521d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Skin/Furniture_Sofas-Armchairs_CIDER-LA-MANUFACTURE_Cast-Assises-Canape.obj using Guid(fe14c239482264779a6de48ebc3521d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b303378d8cb88ab1fbad56f43452a092') in 0.112888 seconds
-  Import took 0.121148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001160 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Skin/IKE050003-3D.jpg
-  artifactKey: Guid(81b7d0ee55a1e4553b92fcb5fa3f67f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Skin/IKE050003-3D.jpg using Guid(81b7d0ee55a1e4553b92fcb5fa3f67f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92fe8db19bc4300cd4cf75c823165b7') in 0.052207 seconds
-  Import took 0.063598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001111 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Skin/LightWood.mat
-  artifactKey: Guid(9f162066639b4489b842e62f0dc80fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Skin/LightWood.mat using Guid(9f162066639b4489b842e62f0dc80fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b517ca5dbd1c0ca41401ccc78ac93b') in 0.060971 seconds
-  Import took 0.073749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001187 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Skin/CIDER_Bois-Chene.jpg
-  artifactKey: Guid(54093bb8b78844d65ba8bccbf262bb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Skin/CIDER_Bois-Chene.jpg using Guid(54093bb8b78844d65ba8bccbf262bb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff93e127cb42fca0aaa227b538ae0f4') in 0.044968 seconds
-  Import took 0.055395 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010082 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.537 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.0 MB.
-System memory in use after: 70.0 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1922.
-Total: 10.153200 ms (FindLiveObjects: 0.938600 ms CreateObjectMapping: 0.319100 ms MarkObjects: 8.553700 ms  DeleteObjects: 0.336900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 163.986852 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Flooring_Carpets_CIDER-LA-MANUFACTURE_Playtime-Rug.prefab
-  artifactKey: Guid(85cba146e2aa0445ca59201b8047f8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Flooring_Carpets_CIDER-LA-MANUFACTURE_Playtime-Rug.prefab using Guid(85cba146e2aa0445ca59201b8047f8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36289262cb6a7a04331bb698619b9fff') in 0.249608 seconds
-  Import took 0.260281 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004649 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.186 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.0 MB.
-System memory in use after: 70.1 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1926.
-Total: 4.616300 ms (FindLiveObjects: 0.306400 ms CreateObjectMapping: 0.113400 ms MarkObjects: 4.078900 ms  DeleteObjects: 0.114700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 82.123798 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab
-  artifactKey: Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab using Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd9c95f8c6c2188ae466c225a4a0aa3') in 0.157345 seconds
-  Import took 0.162058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.810233 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab
-  artifactKey: Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab using Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf3750c92873c6f4acbfd3567f32cb5') in 0.040545 seconds
-  Import took 0.062699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010106 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab
-  artifactKey: Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab using Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf3750c92873c6f4acbfd3567f32cb5') in 0.041377 seconds
-  Import took 0.052181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.709098 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab
-  artifactKey: Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab using Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c3714bebaa91f2a28d56f773fa878a') in 0.022564 seconds
-  Import took 0.029792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027540 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab
-  artifactKey: Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab using Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c3714bebaa91f2a28d56f773fa878a') in 0.023720 seconds
-  Import took 0.031114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.161704 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab
-  artifactKey: Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab using Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7e118e3fe12ec4b1b093a8b6b7cb51') in 0.039782 seconds
-  Import took 0.051231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.921212 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab
-  artifactKey: Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab using Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09713662aa3a2d89b497d427f3b02112') in 0.041709 seconds
-  Import took 0.054506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.850245 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab
-  artifactKey: Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab using Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85314b61140e63baf03bb092f9a7ef82') in 0.042695 seconds
-  Import took 0.054704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.910832 seconds.
-  path: Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab
-  artifactKey: Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Furniture/1MOVE/Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro.prefab using Guid(937a65b99c9f444b6838acc421aae694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cefa20585f301b486cf91b28562220') in 0.050665 seconds
-  Import took 0.071031 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

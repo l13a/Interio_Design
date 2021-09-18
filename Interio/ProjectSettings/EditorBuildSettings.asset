@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/FirstPage.unity
+    guid: fa61d5eedccb04eba866556cdc157f35
+  - enabled: 1
+    path: Assets/Scenes/FurnitureDescription.unity
+    guid: 3725856eeb23d406ea43644d27c59167
+  - enabled: 1
+    path: Assets/Scenes/MainGame.unity
+    guid: 63f97feda7e0047eb9b1c867f8c33eea
+  - enabled: 1
+    path: Assets/Scenes/ScrollMenu.unity
+    guid: 0e63b6fbc25514914b05252f2f453ca3
+  - enabled: 1
+    path: Assets/Scenes/SignIn.unity
+    guid: f054e6200692f4f6f849237d3916571c
+  - enabled: 1
+    path: Assets/Scenes/SignUp.unity
+    guid: 4dc69459e58634c81b8e06ce4c3144b6
+  - enabled: 1
+    path: Assets/Scenes/WelcomePage.unity
+    guid: 2aee5b4a862fc4aafb673727eb056749
   m_configObjects: {}

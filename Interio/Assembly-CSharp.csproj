@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\GUIScript.cs" />
      <Compile Include="Assets\Scripts\DraggableObject.cs" />
      <Compile Include="Assets\Scripts\MoveFurniture.cs" />
+     <Compile Include="Assets\Scripts\ChangeScene.cs" />
      <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\ObjectManager.cs" />
      <Compile Include="Assets\Scripts\InputFIeld.cs" />

@@ -11,7 +11,7 @@ public class ObjFromFile : MonoBehaviour
     void OnGUI() {
         objPath = GUI.TextField(new Rect(0, 0, 256, 32), objPath);
 
-        GUI.Label(new Rect(0, 0, 256, 32), "Obj Path:");
+        GUI.Label(new Rect(0, 0, 400, 32), "Obj Path:");
         if(GUI.Button(new Rect(256, 32, 64, 32), "Load File"))
         {
             //file path

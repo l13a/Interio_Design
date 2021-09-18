@@ -48,18 +48,35 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Canceler.cs" />
+     <Compile Include="Assets\OBJImport\TextureLoader\BinaryExtensions.cs" />
      <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\OBJImport\Samples\ObjFromFile.cs" />
      <Compile Include="Assets\Scripts\BundledObjectLoader.cs" />
+     <Compile Include="Assets\OBJImport\TextureLoader\ImageLoader.cs" />
      <Compile Include="Assets\Scripts\swipe.cs" />
+     <Compile Include="Assets\OBJImport\TextureLoader\ImageUtils.cs" />
      <Compile Include="Assets\Scripts\ObjectChooser.cs" />
+     <Compile Include="Assets\OBJImport\TextureLoader\BMPLoader.cs" />
      <Compile Include="Assets\Scripts\GUIScript.cs" />
      <Compile Include="Assets\Scripts\DraggableObject.cs" />
+     <Compile Include="Assets\OBJImport\TextureLoader\TGALoader.cs" />
      <Compile Include="Assets\Scripts\MoveFurniture.cs" />
+     <Compile Include="Assets\OBJImport\TextureLoader\ColorExtensions.cs" />
+     <Compile Include="Assets\OBJImport\Samples\ObjFromStream.cs" />
+     <Compile Include="Assets\Scripts\LoadScene.cs" />
+     <Compile Include="Assets\OBJImport\OBJLoaderHelper.cs" />
+     <Compile Include="Assets\OBJImport\OBJLoader.cs" />
+     <Compile Include="Assets\OBJImport\TextureLoader\DDSLoader.cs" />
      <Compile Include="Assets\Scripts\ChangeScene.cs" />
      <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\ObjectManager.cs" />
      <Compile Include="Assets\Scripts\InputFIeld.cs" />
+     <Compile Include="Assets\OBJImport\CharWordReader.cs" />
+     <Compile Include="Assets\OBJImport\OBJObjectBuilder.cs" />
+     <Compile Include="Assets\OBJImport\TextureLoader\ImageLoaderHelper.cs" />
+     <Compile Include="Assets\OBJImport\StringExtensions.cs" />
      <Compile Include="Assets\Scripts\SwitchView.cs" />
+     <Compile Include="Assets\OBJImport\MTLLoader.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

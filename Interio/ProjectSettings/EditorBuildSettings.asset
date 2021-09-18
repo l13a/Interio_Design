@@ -32,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UploadPage.unity
     guid: 01de0c8a28d454f06a3d5872c44c079b
+  - enabled: 1
+    path: Assets/Scenes/ShoppingCart.unity
+    guid: 93a5abee748f34fdfaa585505549b059
+  - enabled: 1
+    path: Assets/Scenes/MyPlans.unity
+    guid: a08f38418db8d44cd98286b23d8eb265
+  - enabled: 1
+    path: Assets/Scenes/MyUploads.unity
+    guid: ecd4d3aea0c054bf8a55f22e88352adf
   m_configObjects: {}

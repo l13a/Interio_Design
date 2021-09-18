@@ -448,7 +448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4291606655923662755, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
       propertyPath: availableObjects.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4291606655923662755, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
       propertyPath: availableObjects.Array.data[0]
@@ -468,7 +468,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4291606655923662755, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
       propertyPath: availableObjects.Array.data[4]
-      value: RABARP Lamp
+      value: RANARP Lamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291606655923662755, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
+      propertyPath: availableObjects.Array.data[5]
+      value: LEKSIVK Table
       objectReference: {fileID: 0}
     - target: {fileID: 4291606655961360292, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
       propertyPath: m_Color.a

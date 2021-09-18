@@ -1,13 +1,23 @@
 Using pre-set license
+<<<<<<< HEAD
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MacOS/Unity
+=======
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 8109 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+F:\2020.3.11f1\Editor\Unity.exe
+>>>>>>> Yvette
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 /Users/mockingjay/Documents/GitHub/InterioProject/Interio
 -logFile
 Logs/AssetImportWorker0.log
@@ -335,3 +345,352 @@ System memory in use after: 151.5 MB.
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1877.
 Total: 2.004056 ms (FindLiveObjects: 0.288353 ms CreateObjectMapping: 0.053800 ms MarkObjects: 1.603197 ms  DeleteObjects: 0.057551 ms)
 
+=======
+D:/Documents/HTN2021/InterioProject/Interio
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64380
+Successfully changed project path to: D:/Documents/HTN2021/InterioProject/Interio
+D:/Documents/HTN2021/InterioProject/Interio
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 195.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path F:/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documents/HTN2021/InterioProject/Interio/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     4054 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'F:/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'F:/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: F:/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004538 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 79.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.197 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012638 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.554 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1819.
+Total: 4.992300 ms (FindLiveObjects: 0.354900 ms CreateObjectMapping: 0.120500 ms MarkObjects: 4.277300 ms  DeleteObjects: 0.236000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc088d1731b590f9572c6f2bab98c6a') in 0.044244 seconds
+  Import took 0.053711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1495.118190 seconds.
+  path: Assets/3D Models
+  artifactKey: Guid(80d37d5d6dedfc3438a4910c4c784b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models using Guid(80d37d5d6dedfc3438a4910c4c784b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce0cae0bebb6b4fc992ce0f7e8ea780') in 0.034462 seconds
+  Import took 0.056467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 291.351279 seconds.
+  path: Assets/3D Models/Furniture
+  artifactKey: Guid(bee21bbc8d973f14fbedc5588f9ea2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture using Guid(bee21bbc8d973f14fbedc5588f9ea2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61e420580cf913ade2f2cc8c1465b3d') in 0.022176 seconds
+  Import took 0.045411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.270553 seconds.
+  path: Assets/3D Models/Furniture/bedroomA
+  artifactKey: Guid(dae808698e0be344b88cb0878d9bad12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA using Guid(dae808698e0be344b88cb0878d9bad12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2ebbceb79e5f4c10398403ccbc49ef') in 0.052721 seconds
+  Import took 0.068728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.888603 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/1.jpg
+  artifactKey: Guid(101834bb459bca74395f2da1d3ae7ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/1.jpg using Guid(101834bb459bca74395f2da1d3ae7ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b51ef9650b1bf93330358d7d7fdf41c') in 0.513631 seconds
+  Import took 0.520606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/ikea_malm_obj.obj
+  artifactKey: Guid(64514afee39dd1148b03d38dcd4a8fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/ikea_malm_obj.obj using Guid(64514afee39dd1148b03d38dcd4a8fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a27963e85ca45c7d3c815546f419564') in 2.392462 seconds
+  Import took 2.402895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.672627 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/ikea_malm_obj.mtl
+  artifactKey: Guid(43a8123c0a36b2d4891dfc90a1dc15bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/ikea_malm_obj.mtl using Guid(43a8123c0a36b2d4891dfc90a1dc15bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dc3322c41e0cfc95d2757e0a8a5883') in 0.031444 seconds
+  Import took 0.047650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.152548 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/New Material.mat
+  artifactKey: Guid(76d89e9ef1c64354a95ff6d4c592b6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/New Material.mat using Guid(76d89e9ef1c64354a95ff6d4c592b6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054c0466dbf67b5fc5660e6bad9e1901') in 0.114305 seconds
+  Import took 0.128875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 332.363264 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/ikea_malm_obj.obj
+  artifactKey: Guid(64514afee39dd1148b03d38dcd4a8fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/ikea_malm_obj.obj using Guid(64514afee39dd1148b03d38dcd4a8fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1dd1bd649a8c8263dddc61bfef2f96') in 0.490050 seconds
+  Import took 0.514979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 449.801782 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/ikea_malm_obj.obj
+  artifactKey: Guid(64514afee39dd1148b03d38dcd4a8fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/ikea_malm_obj.obj using Guid(64514afee39dd1148b03d38dcd4a8fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39823be6dab2af972357fd94acb9d86d') in 0.407061 seconds
+  Import took 0.418618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1534.213864 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Pillow.jpg
+  artifactKey: Guid(2cbaec042478f2a46885f71b1c20336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Pillow.jpg using Guid(2cbaec042478f2a46885f71b1c20336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8be8cec875e537eb1b92a9765ca1d9') in 0.070094 seconds
+  Import took 0.082374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.841511 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Matress.jpg
+  artifactKey: Guid(4b71a8d220d9d724f9fa87c8bffb5a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Matress.jpg using Guid(4b71a8d220d9d724f9fa87c8bffb5a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fe9b0c551d9641b3fbda11ffc1294d') in 0.040316 seconds
+  Import took 0.049895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056358 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Matress.jpg
+  artifactKey: Guid(4b71a8d220d9d724f9fa87c8bffb5a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Matress.jpg using Guid(4b71a8d220d9d724f9fa87c8bffb5a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fe9b0c551d9641b3fbda11ffc1294d') in 0.060312 seconds
+  Import took 0.069399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.215208 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials
+  artifactKey: Guid(e507c2df34ab83f4b92735b89069d0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials using Guid(e507c2df34ab83f4b92735b89069d0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1998c9146d1741faed1d1b73c1178cb') in 0.022115 seconds
+  Import took 0.033307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.041157 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials/New Material.mat
+  artifactKey: Guid(76d89e9ef1c64354a95ff6d4c592b6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials/New Material.mat using Guid(76d89e9ef1c64354a95ff6d4c592b6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f683f35b3d103631011d4d7e7256a10') in 0.110071 seconds
+  Import took 0.123658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.243008 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials/New Material 1.mat
+  artifactKey: Guid(864c427b4b0e1744daafe4bceed4bcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials/New Material 1.mat using Guid(864c427b4b0e1744daafe4bceed4bcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79d2d248eb4070e32261cb31b161e06') in 0.067584 seconds
+  Import took 0.079074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 220.202882 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials/Pillow.jpg
+  artifactKey: Guid(2cbaec042478f2a46885f71b1c20336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials/Pillow.jpg using Guid(2cbaec042478f2a46885f71b1c20336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab96b523c6571abeb4ef609f68404a77') in 0.113501 seconds
+  Import took 0.132993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 770.638131 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials/blanket2.jpg
+  artifactKey: Guid(0c245ec1cf08948498f4eb023f793ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials/blanket2.jpg using Guid(0c245ec1cf08948498f4eb023f793ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4508bb20ae428cc041d5d5f0155cb8f7') in 0.055216 seconds
+  Import took 0.071612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.341666 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials/New Material 2.mat
+  artifactKey: Guid(ab6cdb200a154ce4fa8b6b53c3d7dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials/New Material 2.mat using Guid(ab6cdb200a154ce4fa8b6b53c3d7dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68be1bd3eb08b0b94b52a986a23204cc') in 0.083995 seconds
+  Import took 0.099544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.129387 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials/Pillow.jpg
+  artifactKey: Guid(2cbaec042478f2a46885f71b1c20336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials/Pillow.jpg using Guid(2cbaec042478f2a46885f71b1c20336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03eacc77e3bdf61fed6627a239d6b5e') in 0.061833 seconds
+  Import took 0.077909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 491.711961 seconds.
+  path: Assets/3D Models/Furniture/ikea_malm_obj.prefab
+  artifactKey: Guid(d9caefde418f02f4986e8d6cf92de8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/ikea_malm_obj.prefab using Guid(d9caefde418f02f4986e8d6cf92de8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747706ccf31c9b981ede549bfbd787c0') in 0.314857 seconds
+  Import took 0.328682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 887.692284 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/IKE140039_obj
+  artifactKey: Guid(e685376186f77f64d957573a523012d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/IKE140039_obj using Guid(e685376186f77f64d957573a523012d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286ada754e1100cc108c3544f7531465') in 0.036345 seconds
+  Import took 0.055945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011528 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/IKE140039_obj/IKEA-MALM_Commode_2_tiroirs_variante_2-3D.obj
+  artifactKey: Guid(a67daad5c4f7f9a48a9ecb0184e7b5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/IKE140039_obj/IKEA-MALM_Commode_2_tiroirs_variante_2-3D.obj using Guid(a67daad5c4f7f9a48a9ecb0184e7b5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce30ba9f2dcb207d6443c2fafe8a63a') in 0.199810 seconds
+  Import took 0.211497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.144696 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/IKE140039_obj/IKEA-MALM_Commode_2_tiroirs_variante_2-3D.mtl
+  artifactKey: Guid(199059a6844c1894abc808e28a33f5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/IKE140039_obj/IKEA-MALM_Commode_2_tiroirs_variante_2-3D.mtl using Guid(199059a6844c1894abc808e28a33f5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7b973cafa58734f98f96552d8765b2') in 0.019544 seconds
+  Import took 0.034238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011060 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/IKE140039_obj/IKEA-MALM_Commode_2_tiroirs_variante_2-3D.mtl
+  artifactKey: Guid(199059a6844c1894abc808e28a33f5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/IKE140039_obj/IKEA-MALM_Commode_2_tiroirs_variante_2-3D.mtl using Guid(199059a6844c1894abc808e28a33f5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7b973cafa58734f98f96552d8765b2') in 0.009260 seconds
+  Import took 0.020905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.444549 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials/Drawer.jpg
+  artifactKey: Guid(49d978965a36ac94db873d7d9b656510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials/Drawer.jpg using Guid(49d978965a36ac94db873d7d9b656510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90325f0532570e0484a580e443701e18') in 0.061493 seconds
+  Import took 0.073616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001068 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials/New Material 2.mat
+  artifactKey: Guid(ab6cdb200a154ce4fa8b6b53c3d7dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials/New Material 2.mat using Guid(ab6cdb200a154ce4fa8b6b53c3d7dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cd6107979f00d0223b130cd22c49a0') in 0.069282 seconds
+  Import took 0.081608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000927 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials/New Material.mat
+  artifactKey: Guid(76d89e9ef1c64354a95ff6d4c592b6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials/New Material.mat using Guid(76d89e9ef1c64354a95ff6d4c592b6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b4dcb65c60430782ee19197964e221') in 0.056894 seconds
+  Import took 0.071413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials/New Material 1.mat
+  artifactKey: Guid(864c427b4b0e1744daafe4bceed4bcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials/New Material 1.mat using Guid(864c427b4b0e1744daafe4bceed4bcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a4d74a766fb34a9ebd2f1ec4a5194a') in 0.026738 seconds
+  Import took 0.033122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.622189 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials/New Material 3.mat
+  artifactKey: Guid(92583f32c8c00f1419875496364ad20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials/New Material 3.mat using Guid(92583f32c8c00f1419875496364ad20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfd5df3c353e56035279eed5e5e261b') in 0.027546 seconds
+  Import took 0.035281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.467377 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/IKE140039_obj/IKEA-MALM_Commode_2_tiroirs_variante_2-CAT.pdf
+  artifactKey: Guid(7369a5f26a438084ca81646952845359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/IKE140039_obj/IKEA-MALM_Commode_2_tiroirs_variante_2-CAT.pdf using Guid(7369a5f26a438084ca81646952845359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6abd28731b1d9c61c84c76f78843a98') in 0.068295 seconds
+  Import took 0.077838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.461024 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/IKE140039_obj/IKEA-MALM_Commode_2_tiroirs_variante_2-3D.obj
+  artifactKey: Guid(a67daad5c4f7f9a48a9ecb0184e7b5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/IKE140039_obj/IKEA-MALM_Commode_2_tiroirs_variante_2-3D.obj using Guid(a67daad5c4f7f9a48a9ecb0184e7b5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc402e54e0439eb134ca41d5e1a4418') in 0.106818 seconds
+  Import took 0.116550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 729.234067 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/IKE140021_obj/IKEA-KVART_Lampadaire-3D.obj
+  artifactKey: Guid(1ef68073aa32704479401af94dd67f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/IKE140021_obj/IKEA-KVART_Lampadaire-3D.obj using Guid(1ef68073aa32704479401af94dd67f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19dd8e6042b898e39401d1d6fcbc04e') in 0.326366 seconds
+  Import took 0.340471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.689756 seconds.
+  path: Assets/3D Models/Furniture/bedroomA/Materials/lamp.jpg
+  artifactKey: Guid(aa965d1816c457c45bb29fb121bf39a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/bedroomA/Materials/lamp.jpg using Guid(aa965d1816c457c45bb29fb121bf39a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0c54e951314f42e4c6dbc6874d7d06') in 0.020932 seconds
+  Import took 0.026795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.188588 seconds.
+  path: Assets/3D Models/Furniture/IKEA-KVART_Lampadaire-3D.prefab
+  artifactKey: Guid(79ee1e832cac3fb419ed60948beffa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/IKEA-KVART_Lampadaire-3D.prefab using Guid(79ee1e832cac3fb419ed60948beffa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2c0de022a06dea501be2f383f4a46c') in 0.041767 seconds
+  Import took 0.049508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.378945 seconds.
+  path: Assets/3D Models/Furniture/IKEA-MALM_Commode_2_tiroirs_variante_2-3D.prefab
+  artifactKey: Guid(f4a8b8fec38d6ab4d9c2ad520d541a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Furniture/IKEA-MALM_Commode_2_tiroirs_variante_2-3D.prefab using Guid(f4a8b8fec38d6ab4d9c2ad520d541a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dc28c9b2d760fac50ac343f17e8b8a') in 0.052056 seconds
+  Import took 0.066230 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+>>>>>>> Yvette

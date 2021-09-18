@@ -71,6 +71,7 @@
      <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\ObjectManager.cs" />
      <Compile Include="Assets\Scripts\InputFIeld.cs" />
+     <Compile Include="Assets\Scripts\SendAPI.cs" />
      <Compile Include="Assets\OBJImport\CharWordReader.cs" />
      <Compile Include="Assets\OBJImport\OBJObjectBuilder.cs" />
      <Compile Include="Assets\OBJImport\TextureLoader\ImageLoaderHelper.cs" />

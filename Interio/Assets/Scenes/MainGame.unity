@@ -431,6 +431,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999611421}
   m_CullTransparentMesh: 0
+--- !u!1 &1320282811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4291606657707246042, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
+  m_PrefabInstance: {fileID: 1501248604}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1501248604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -874,7 +879,8 @@ PrefabInstance:
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: c02a9a23e679f4a0f8f13c2838fb3ca1, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4291606655923662755, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
 --- !u!224 &1501248605 stripped
 RectTransform:
@@ -982,6 +988,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688814090}
   m_CullTransparentMesh: 0
+--- !u!1 &1727912622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4291606655923662753, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
+  m_PrefabInstance: {fileID: 1501248604}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1727912623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727912622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0e93f3a9daf4870bdddc1140656f8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addObjectButtonPrefab: {fileID: 1820935487}
+  container: {fileID: 1320282811}
+  availableObjects:
+  - BRIMNES Wardrobe
+  - Flooring_Carpets_CIDER-LA-MANUFACTURE_Playtime-Rug
+  - Furniture_Chairs-Stools-Benches_CIDER-LA-MANUFACTURE_Toro
+  - Furniture_Sofas-Armchairs_CIDER-LA-MANUFACTURE_Cast-Assises-Canape
+  - IKE050020
+  - LEKSIVK Table
+  - MALM Bed
+  - MALM Chest
+  - Mukul Dining Table
+  - RANARP Lamp
+--- !u!1 &1820935487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4291606655961360299, guid: 6155f04f03fd642f9b5b51f7d38271eb, type: 3}
+  m_PrefabInstance: {fileID: 1501248604}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2037520742
 GameObject:
   m_ObjectHideFlags: 0

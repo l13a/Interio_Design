@@ -8,7 +8,7 @@ public class ObjectChooser : MonoBehaviour
 	
 	public GameObject addObjectButtonPrefab;
 	public GameObject container;
-	public static string[] availableObjects;
+	public string[] availableObjects;
 	
     // Start is called before the first frame update
     void Start()

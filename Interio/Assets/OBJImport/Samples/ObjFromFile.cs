@@ -7,12 +7,14 @@ public class ObjFromFile : MonoBehaviour
     string objPath = string.Empty;
     string error = string.Empty;
     GameObject loadedObject;
+    private GUIStyle guiStyle = new GUIStyle();
 
     void OnGUI() {
-        objPath = GUI.TextField(new Rect(0, 0, 256, 32), objPath);
+        objPath = GUI.TextField(new Rect(50, 50, 300, 50), objPath);
 
-        GUI.Label(new Rect(0, 0, 400, 32), "Obj Path:");
-        if(GUI.Button(new Rect(256, 32, 64, 32), "Load File"))
+        guiStyle.fontSize = 30;
+        GUI.Label(new Rect(50, 50, 400, 50), "Obj Path:", guiStyle);
+        if(GUI.Button(new Rect(106, 109, 200, 20), "Load File"))
         {
             //file path
             if (!File.Exists(objPath))
@@ -29,7 +31,7 @@ public class ObjFromFile : MonoBehaviour
         if(!string.IsNullOrWhiteSpace(error))
         {
             GUI.color = Color.red;
-            GUI.Box(new Rect(0, 64, 256 + 64, 32), error);
+            GUI.Box(new Rect(800, 464, 256 + 64, 300), error);
             GUI.color = Color.white;
         }
     }

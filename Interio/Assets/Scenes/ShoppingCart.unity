@@ -232,8 +232,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.9715, y: 178}
-  m_SizeDelta: {x: 375.0569, y: 47.0309}
+  m_AnchoredPosition: {x: 59.9093, y: 187.47609}
+  m_SizeDelta: {x: 638.8755, y: 42.2978}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &48291902
 MonoBehaviour:
@@ -257,7 +257,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c02a9a23e679f4a0f8f13c2838fb3ca1, type: 3}
-    m_FontSize: 35
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -268,7 +268,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NAME
+  m_Text: 'INGATORP Extendable table, white
+
+
+'
 --- !u!222 &48291903
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -468,7 +471,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.9715, y: 58}
+  m_AnchoredPosition: {x: -78, y: 23.515}
   m_SizeDelta: {x: 375.0569, y: 47.0309}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &100956823
@@ -493,7 +496,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c02a9a23e679f4a0f8f13c2838fb3ca1, type: 3}
-    m_FontSize: 35
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -504,7 +507,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'PRICE
+  m_Text: '$115.99
 
 '
 --- !u!222 &100956824
@@ -1371,8 +1374,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.9715, y: 178}
-  m_SizeDelta: {x: 375.0569, y: 47.0309}
+  m_AnchoredPosition: {x: 35.791, y: 165.51}
+  m_SizeDelta: {x: 594.6396, y: 98.273}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &583979577
 MonoBehaviour:
@@ -1396,10 +1399,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c02a9a23e679f4a0f8f13c2838fb3ca1, type: 3}
-    m_FontSize: 35
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1407,7 +1410,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NAME
+  m_Text: Mukul 60'' Rubberwood Solid Wood Dining Table
 --- !u!222 &583979578
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1896,7 +1899,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0000076293945, y: 32.10875}
+  m_AnchoredPosition: {x: 0.0004695875, y: 0}
   m_SizeDelta: {x: -2.5369, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &647039973
@@ -2052,8 +2055,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.9715, y: 120}
-  m_SizeDelta: {x: 375.0569, y: 47.0309}
+  m_AnchoredPosition: {x: -60.838, y: 55.7022}
+  m_SizeDelta: {x: 409.3811, y: 171.8943}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &664765567
 MonoBehaviour:
@@ -2077,7 +2080,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c02a9a23e679f4a0f8f13c2838fb3ca1, type: 3}
-    m_FontSize: 35
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -2088,9 +2091,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'SIzE
-
-'
+  m_Text: "Length: 13\u2019 (396.24 cm)\nWidth: 10\u2019 (304.8 cm)\n"
 --- !u!222 &664765568
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2232,7 +2233,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f0f63e39a6d224c96b81556cafc49230, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2598,7 +2599,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 578650937}
   m_HandleRect: {fileID: 578650936}
   m_Direction: 2
-  m_Value: 0.93310666
+  m_Value: 1
   m_Size: 0.6390981
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2676,7 +2677,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.9715, y: 58}
+  m_AnchoredPosition: {x: -74, y: 6.9766}
   m_SizeDelta: {x: 375.0569, y: 47.0309}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &907968197
@@ -2701,7 +2702,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c02a9a23e679f4a0f8f13c2838fb3ca1, type: 3}
-    m_FontSize: 35
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -2712,9 +2713,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'PRICE
-
-'
+  m_Text: $799.99
 --- !u!222 &907968198
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2757,7 +2756,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.9715, y: 178}
+  m_AnchoredPosition: {x: -78, y: 183}
   m_SizeDelta: {x: 375.0569, y: 47.0309}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &940125134
@@ -2782,7 +2781,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c02a9a23e679f4a0f8f13c2838fb3ca1, type: 3}
-    m_FontSize: 35
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -2793,7 +2792,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NAME
+  m_Text: 'Jac-Dean Striped Ivory/Black Area Rug
+
+'
 --- !u!222 &940125135
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3078,7 +3079,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.9715, y: 58}
+  m_AnchoredPosition: {x: -67, y: 0}
   m_SizeDelta: {x: 375.0569, y: 47.0309}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1023365731
@@ -3103,7 +3104,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c02a9a23e679f4a0f8f13c2838fb3ca1, type: 3}
-    m_FontSize: 35
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -3114,7 +3115,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'PRICE
+  m_Text: '$399.00
 
 '
 --- !u!222 &1023365732
@@ -3640,7 +3641,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b97653a0d44f16c41a16350280498d15, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4458,7 +4459,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 525635406}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9998871
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4679,7 +4680,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b94d3e287a9f247119b20af9a0a26a37, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5038,8 +5039,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.9715, y: 120}
-  m_SizeDelta: {x: 375.0569, y: 47.0309}
+  m_AnchoredPosition: {x: 34.542, y: 97.481}
+  m_SizeDelta: {x: 588.14, y: 117.2987}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2014367813
 MonoBehaviour:
@@ -5063,7 +5064,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c02a9a23e679f4a0f8f13c2838fb3ca1, type: 3}
-    m_FontSize: 35
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -5074,7 +5075,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'SIzE
+  m_Text: 'Max. length: 61" (155 cm) Height: 29 1/8" (74 cm)
+
+    Diameter: 43 1/4"
+    (110 cm)
 
 '
 --- !u!222 &2014367814
@@ -5161,8 +5165,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.9715, y: 120}
-  m_SizeDelta: {x: 375.0569, y: 47.0309}
+  m_AnchoredPosition: {x: 22.863, y: 73.433}
+  m_SizeDelta: {x: 568.7834, y: 85.884}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2091153148
 MonoBehaviour:
@@ -5186,7 +5190,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c02a9a23e679f4a0f8f13c2838fb3ca1, type: 3}
-    m_FontSize: 35
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -5197,9 +5201,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'SIzE
+  m_Text: 'Length: 60" (152.4 cm) Width: 36" (91.44 cm)
 
-'
+    Height: 29.5" (74.93
+    cm)'
 --- !u!222 &2091153149
 CanvasRenderer:
   m_ObjectHideFlags: 0

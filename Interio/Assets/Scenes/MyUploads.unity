@@ -388,10 +388,10 @@ RectTransform:
   m_Father: {fileID: 1810002847}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -646.61, y: -326.73}
-  m_SizeDelta: {x: 160, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 139, y: 140}
+  m_SizeDelta: {x: 220, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &113069121
 MonoBehaviour:
@@ -1469,7 +1469,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.7029408, y: 0}
+  m_AnchoredPosition: {x: 0.000050469946, y: 0}
   m_SizeDelta: {x: -2.5369, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &647039973
@@ -2278,10 +2278,10 @@ RectTransform:
   m_Father: {fileID: 1810002847}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.001503, y: -72.491}
-  m_SizeDelta: {x: 1416, y: 651.02}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0.000061035, y: 413.53}
+  m_SizeDelta: {x: 1920, y: 827.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978263587
 MonoBehaviour:
@@ -3883,10 +3883,10 @@ RectTransform:
   m_Father: {fileID: 1810002847}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -248, y: 288}
-  m_SizeDelta: {x: 708.868, y: 107.9641}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 716, y: -198.96}
+  m_SizeDelta: {x: 708.868, y: 107.96411}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1644163143
 MonoBehaviour:
@@ -3910,7 +3910,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c02a9a23e679f4a0f8f13c2838fb3ca1, type: 3}
-    m_FontSize: 50
+    m_FontSize: 60
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -4049,7 +4049,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 525635406}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.99821216
+  m_Size: 0.99999595
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

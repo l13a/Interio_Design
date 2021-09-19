@@ -7,6 +7,10 @@ using UnityEngine.Networking;
 
 public class CallAPI : MonoBehaviour {
     private RequestHelper currentRequest;
+    public string data;
+    public Canvas canvas;
+    public bool toggle = false;
+    private GUIStyle guiStyle = new GUIStyle();
     
     private void LogMessage(string title, string message) {
 #if UNITY_EDITOR
@@ -37,14 +41,51 @@ public class CallAPI : MonoBehaviour {
             EnableDebug = true
         };
         RestClient.Post<Post>(currentRequest)
-            .Then(res => {
-        
+            .Then(res =>
+            {
+
                 // And later we can clear the default query string params for all requests
                 RestClient.ClearDefaultParams();
-        
-                this.LogMessage("Avaliable Promotion Codes: ", JsonUtility.ToJson(res, true));
+
+                //this.LogMessage("Avaliable Promotion Codes: ", JsonUtility.ToJson(res, true));
+                data = res.ToString();
             })
             .Catch(err => this.LogMessage("Error", err.Message));
+    }
+
+    public void OnGUI()
+    {
+        if (toggle == false) {
+            toggle = true;
+            //GUI.enabled = true;
+            //GUI.contentColor = Color.white;
+            //guiStyle.fontSize = 20;
+            //GUI.skin.button.wordWrap = true;
+            GUI.Label(new Rect(800, 400, 300, 300), data);
+        }
+        else
+        {
+            toggle = false;
+            // GUI.enabled = false;
+            // GUI.contentColor = Color.black;
+            // guiStyle.fontSize = 50;
+            GUI.Label(new Rect(800, 600, 500, 400), "");
+
+        }
+    }
+    
+    public void popUp()
+    {
+        if (toggle == false) {
+            toggle = true;
+            canvas.enabled = true;
+        }
+        else
+        {
+            toggle = false;
+            canvas.enabled = false;
+    
+        }
     }
         
 }

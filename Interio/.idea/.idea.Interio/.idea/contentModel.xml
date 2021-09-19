@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="CreateAssetBundles.cs" t="Include" />
+        </e>
+        <e p="OBJImport" t="Include">
+          <e p="CharWordReader.cs" t="Include" />
+          <e p="MTLLoader.cs" t="Include" />
+          <e p="OBJLoader.cs" t="Include" />
+          <e p="OBJLoaderHelper.cs" t="Include" />
+          <e p="OBJObjectBuilder.cs" t="Include" />
+          <e p="Samples" t="Include">
+            <e p="ObjFromFile.cs" t="Include" />
+            <e p="ObjFromStream.cs" t="Include" />
+          </e>
+          <e p="StringExtensions.cs" t="Include" />
+          <e p="TextureLoader" t="Include">
+            <e p="BinaryExtensions.cs" t="Include" />
+            <e p="BMPLoader.cs" t="Include" />
+            <e p="ColorExtensions.cs" t="Include" />
+            <e p="DDSLoader.cs" t="Include" />
+            <e p="ImageLoader.cs" t="Include" />
+            <e p="ImageLoaderHelper.cs" t="Include" />
+            <e p="ImageUtils.cs" t="Include" />
+            <e p="TGALoader.cs" t="Include" />
+          </e>
+        </e>
+        <e p="RestClient" t="Include">
+          <e p="DemoScene" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="MainScript.cs" t="Include" />
+              <e p="Model" t="Include">
+                <e p="Photo.cs" t="Include" />
+                <e p="Post.cs" t="Include" />
+                <e p="Todo.cs" t="Include" />
+                <e p="User.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Packages" t="Include">
+            <e p="Proyecto26.RestClient" t="Include">
+              <e p="Helpers" t="Include">
+                <e p="Common.cs" t="Include" />
+                <e p="Extensions.cs" t="Include" />
+                <e p="HttpBase.cs" t="Include" />
+                <e p="JsonHelper.cs" t="Include" />
+                <e p="RequestException.cs" t="Include" />
+                <e p="RequestHelper.cs" t="Include" />
+                <e p="RequestHelperExtension.cs" t="Include" />
+                <e p="ResponseHelper.cs" t="Include" />
+                <e p="StaticCoroutine.cs" t="Include" />
+              </e>
+              <e p="RestClient.cs" t="Include" />
+              <e p="RestClientPromise.cs" t="Include" />
+            </e>
+            <e p="RSG.Promise" t="Include">
+              <e p="EnumerableExt.cs" t="Include" />
+              <e p="Exceptions" t="Include">
+                <e p="PromiseException.cs" t="Include" />
+                <e p="PromiseStateException.cs" t="Include" />
+              </e>
+              <e p="Promise.cs" t="Include" />
+              <e p="Promise_NonGeneric.cs" t="Include" />
+              <e p="PromiseHelpers.cs" t="Include" />
+              <e p="PromiseTimer.cs" t="Include" />
+              <e p="Tuple.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="BundledObjectLoader.cs" t="Include" />
+          <e p="CallAPI.cs" t="Include" />
+          <e p="CameraMove.cs" t="Include" />
+          <e p="Canceler.cs" t="Include" />
+          <e p="ChangeScene.cs" t="Include" />
+          <e p="DraggableObject.cs" t="Include" />
+          <e p="GUIScript.cs" t="Include" />
+          <e p="InputFIeld.cs" t="Include" />
+          <e p="LoadScene.cs" t="Include" />
+          <e p="Move.cs" t="Include" />
+          <e p="MoveFurniture.cs" t="Include" />
+          <e p="ObjectChooser.cs" t="Include" />
+          <e p="ObjectManager.cs" t="Include" />
+          <e p="SendAPI.cs" t="Include" />
+          <e p="swipe.cs" t="Include" />
+          <e p="SwitchView.cs" t="Include" />
+        </e>
+        <e p="Standard Assets" t="Include">
+          <e p="CrossPlatformInput" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="AxisTouchButton.cs" t="Include" />
+              <e p="ButtonHandler.cs" t="Include" />
+              <e p="CrossPlatformInputManager.cs" t="Include" />
+              <e p="InputAxisScrollbar.cs" t="Include" />
+              <e p="Joystick.cs" t="Include" />
+              <e p="MobileControlRig.cs" t="Include" />
+              <e p="PlatformSpecific" t="Include">
+                <e p="MobileInput.cs" t="Include" />
+                <e p="StandaloneInput.cs" t="Include" />
+              </e>
+              <e p="TiltInput.cs" t="Include" />
+              <e p="TouchPad.cs" t="Include" />
+              <e p="VirtualInput.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="CrossPlatformInput" t="Include">
+              <e p="CrossPlatformInputInitialize.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Interio.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/Bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Interio.-706970783.00" t="ExcludeRecursive" />
+  </component>
+</project>

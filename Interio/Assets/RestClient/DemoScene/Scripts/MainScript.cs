@@ -76,6 +76,7 @@ public class MainScript : MonoBehaviour {
 
 			// And later we can clear the default query string params for all requests
 			RestClient.ClearDefaultParams();
+			Debug.Log(JsonUtility.ToJson(res, true));
 
 			this.LogMessage("Success", JsonUtility.ToJson(res, true));
 		})

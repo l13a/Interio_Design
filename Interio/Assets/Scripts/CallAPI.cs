@@ -16,12 +16,13 @@ public class CallAPI : MonoBehaviour {
 #endif
     }
     
-    public void Post(){
+    public void Post()
+    {
 
         // We can add default query string params for all requests
         RestClient.DefaultRequestParams["param1"] = "My first param";
         RestClient.DefaultRequestParams["param3"] = "My other param";
-
+        
         currentRequest = new RequestHelper {
             Uri = "http://101.132.76.183:8000/coupon",
             Params = new Dictionary<string, string> {
@@ -37,10 +38,10 @@ public class CallAPI : MonoBehaviour {
         };
         RestClient.Post<Post>(currentRequest)
             .Then(res => {
-
+        
                 // And later we can clear the default query string params for all requests
                 RestClient.ClearDefaultParams();
-
+        
                 this.LogMessage("Avaliable Promotion Codes: ", JsonUtility.ToJson(res, true));
             })
             .Catch(err => this.LogMessage("Error", err.Message));
